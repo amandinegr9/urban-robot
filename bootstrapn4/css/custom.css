@@ -1,0 +1,64 @@
+/* Vos customisations des classes de Bootstrap */
+body{
+	margin:0;
+	padding:0;
+	}
+	/*header*/
+	.navbar{
+		border-radius:0px;
+		}
+	
+	/*jumbotron*/
+	.jumbotron-fluid{
+		background-image:url("../images/hero-image.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position:top;
+		height:600px;
+		margin-top:-20px;
+		}
+		
+	#home h1,#home p{
+	color:white;
+	text-align:center;
+	}
+	
+	.navbar-nav {
+    float:right;
+	margin-right:300px;
+	}
+	
+	#logo {
+		margin-left:300px;
+	}
+	
+	.btn-primary{
+	background-color:#D9534F;
+	border:none;
+	}
+	
+h2{
+	color:#D9534F;
+}
+
+#barrevertical br{
+	width:50px;
+	border:2px solid #D9534F;
+}
+	
+	
+
+
+	/* Responsive Styling */
+
+	@media (max-width: 1199px) {
+
+	}
+
+	@media (max-width: 991px) {
+
+	}
+
+	@media (max-width: 767px) {
+
+	}
